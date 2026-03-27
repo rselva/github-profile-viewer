@@ -1,19 +1,24 @@
-# Github profile viewer
+# GitHub Profile Viewer
 
-![Profile view](image.png)
-## React + Vite
+A React app to search and view GitHub user profiles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Search GitHub users by username
+- View profile, bio, location and blog
+- See top repositories with stars and language
+- Search history (last 5 searches)
+- Dark / Light theme toggle
 
-Currently, two official plugins are available:
+## Tech Stack
+- React 18
+- Vite
+- React Bootstrap
+- GitHub REST API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
+npm install
+npm run dev
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+ [GitHub Profile Viewer](https://github-profile-viewer-silk.vercel.app/) @ Vercel
